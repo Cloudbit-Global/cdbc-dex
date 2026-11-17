@@ -1,0 +1,17 @@
+# Environment & Server Secrets
+.env
+.env.*
+!.env.example
+config/secrets.php
+
+# Listing Submissions & Cache
+submissions/*.json
+cache/*.json
+*.log
+
+# Build & OS Files
+node_modules/
+dist/
+*.zip
+.DS_Store
+Thumbs.db
