@@ -1,0 +1,69 @@
+{
+  "name": "CloudbitDEX Official Token List",
+  "timestamp": "2026-11-17T20:00:00.000Z",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png",
+  "keywords": ["cloudbit", "cdbc", "cloudbitex", "defi", "multichain"],
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0xf2fef8fa2c52b927c0a589a1a645c77189f24541",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xdc95becd16081bf00c3cabac5820a3e18b495cad",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    },
+    {
+      "chainId": 137,
+      "address": "0x026a2ede22cc9525793120a3763d3a1c2c6840a8",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    },
+    {
+      "chainId": 10,
+      "address": "0x92f1950d8c80a2d844b321e65e226a694801cc13",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    },
+    {
+      "chainId": 43114,
+      "address": "0x7462617313b26d7b72daed71a852e51588f7f1a7",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x35d545a52a8dd6abb588292ea6b7b9cb3898b53b",
+      "name": "Cloudbit Classic",
+      "symbol": "CDBC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/assets/cdbc-logo-256.png"
+    }
+  ]
+}
