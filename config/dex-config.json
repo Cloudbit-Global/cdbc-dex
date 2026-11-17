@@ -1,0 +1,31 @@
+{
+  "dex_name": "CloudbitDEX",
+  "domain": "https://cloudbitex.com",
+  "version": "2.0.0",
+  "default_language": "en",
+  "theme": "obsidian-dark",
+  "fees": {
+    "router_fee_bps": 25,
+    "router_fee_percent": 0.25,
+    "lp_fee_bps": 25,
+    "lp_fee_percent": 0.25,
+    "total_swap_fee_percent": 0.50,
+    "cdbc_token_buy_tax_percent": 0,
+    "cdbc_token_sell_tax_percent": 0,
+    "token_listing_fee_bnb": "0.5"
+  },
+  "wallet_connectors": {
+    "evm": ["Thirdweb", "WalletConnect", "Coinbase Smart Wallet", "MetaMask"],
+    "solana": ["Phantom", "Solflare"],
+    "cosmos": ["Keplr", "Leap"],
+    "sandbox_mode": true
+  },
+  "primary_token": {
+    "name": "Cloudbit Classic",
+    "symbol": "CDBC",
+    "total_supply": "200000000",
+    "primary_network": "BNB Smart Chain",
+    "primary_contract": "0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9",
+    "registry_source": "https://raw.githubusercontent.com/Cloudbit-Global/core/main/registry/contracts.json"
+  }
+}
