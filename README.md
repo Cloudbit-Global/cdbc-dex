@@ -75,3 +75,8 @@
 * **[`Cloudbit-Global/cdbc-app`](https://github.com/Cloudbit-Global/cdbc-app)** – Official main project portal and ecosystem web builds (`cdbc.io`).
 * **[`Cloudbit-Global/cdbc-api`](https://github.com/Cloudbit-Global/cdbc-api)** – Public supply endpoints and OpenAPI specifications (`cdbc.io/api`).
 * **[`Cloudbit-Global/cdbc-bot`](https://github.com/Cloudbit-Global/cdbc-bot)** – Official Telegram GameFi & Tap2Earn Bot (`@cloudbit_ai_bot` / `cloudbit.to`).
+---
+
+## Official CloudbitDEX Android App (APK)
+
+* **Download CloudbitDEX Android App (`v2.0.0`):** [CloudbitDEX-v2.0.0.apk](https://github.com/Cloudbit-Global/cdbc-dex/releases/download/v2.0.0/CloudbitDEX-v2.0.0.apk)
