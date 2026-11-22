@@ -79,4 +79,4 @@
 
 ## Official CloudbitDEX Android App (APK)
 
-* **Download CloudbitDEX Android App (`v3.0.0`):** [CloudbitDEX-v3.0.0.apk](https://github.com/Cloudbit-Global/cdbc-dex/releases/download/v2.0.0/CloudbitDEX-v3.0.0.apk)
+* **Download CloudbitDEX Android App (`v3.0.0`):** [CloudbitDEX-v3.0.0.apk](https://github.com/Cloudbit-Global/cdbc-dex/releases/download/v3.0.0/CloudbitDEX-v3.0.0.apk)
