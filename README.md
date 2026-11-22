@@ -7,7 +7,7 @@
   <p>
     <a href="https://cloudbitex.com">Launch CloudbitDEX</a> &bull;
     <a href="https://cdbc.io">cdbc.io</a> &bull;
-    <a href="https://cdbc.io/api">Public API</a> &bull;
+    <a href="https://cdbc-api.vercel.app/api/cdbc/supply">Public API</a> &bull;
     <a href="https://cloudbit.to">cloudbit.to</a> &bull;
     <a href="https://t.me/cloudbit_ai_bot">@cloudbit_ai_bot</a> &bull;
     <a href="https://x.com/cloudbit_">X (@cloudbit_)</a>
@@ -73,7 +73,7 @@
 * **[`Cloudbit-Global/core`](https://github.com/Cloudbit-Global/core)** – Core architecture, multichain contract registry, verified ABIs, and brand assets.
 * **[`Cloudbit-Global/cdbc-dex`](https://github.com/Cloudbit-Global/cdbc-dex)** – CloudbitDEX decentralized exchange interface and routing engine (`cloudbitex.com`).
 * **[`Cloudbit-Global/cdbc-app`](https://github.com/Cloudbit-Global/cdbc-app)** – Official main project portal and ecosystem web builds (`cdbc.io`).
-* **[`Cloudbit-Global/cdbc-api`](https://github.com/Cloudbit-Global/cdbc-api)** – Public supply endpoints and OpenAPI specifications (`cdbc.io/api`).
+* **[`Cloudbit-Global/cdbc-api`](https://github.com/Cloudbit-Global/cdbc-api)** – Public supply endpoints and OpenAPI specifications (`cdbc-api.vercel.app`).
 * **[`Cloudbit-Global/cdbc-bot`](https://github.com/Cloudbit-Global/cdbc-bot)** – Official Telegram GameFi & Tap2Earn Bot (`@cloudbit_ai_bot` / `cloudbit.to`).
 ---
 
