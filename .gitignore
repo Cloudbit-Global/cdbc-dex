@@ -1,17 +1,47 @@
-# Environment & Server Secrets
+# Environment & Secrets (NEVER commit)
 .env
 .env.*
 !.env.example
-config/secrets.php
+*.pem
+*.key
+*.keystore
+*.jks
+secrets/
 
-# Listing Submissions & Cache
-submissions/*.json
-cache/*.json
-*.log
-
-# Build & OS Files
+# Node.js / Vercel / Frontend Builds
 node_modules/
 dist/
-*.zip
+build/
+.next/
+.vercel/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# PHP / Composer / Local Cache
+vendor/
+cache/*.json
+!cache/.gitkeep
+
+# Android / APK Local Artifacts (publish via GitHub Releases, not Git tree)
+*.apk
+*.aab
+*.apks
+*.idsig
+local.properties
+
+# OS & Editor Metadata
 .DS_Store
 Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.log
