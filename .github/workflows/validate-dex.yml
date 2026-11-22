@@ -1,0 +1,33 @@
+name: Validate CloudbitDEX TokenList & Config
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate-dex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Validate tokenlist.json & dex-config.json
+        run: |
+          python3 - << "EOF"
+          import json
+
+          with open("tokenlist.json", "r", encoding="utf-8") as f:
+              tl = json.load(f)
+          with open("config/dex-config.json", "r", encoding="utf-8") as f:
+              cfg = json.load(f)
+
+          assert len(tl["tokens"]) >= 7
+          bsc_tokens = [t for t in tl["tokens"] if t["chainId"] == 56]
+          assert len(bsc_tokens) == 1
+          assert bsc_tokens[0]["address"] == "0xaf8b1b1bb4a47f537932968C7DE6E251dd50C6a9"
+          assert cfg["fees"]["router_fee_bps"] == 25
+          assert cfg["fees"]["lp_fee_bps"] == 25
+          print("CLOUDBITDEX TOKENLIST & CONFIG VALIDATED SUCCESSFULLY")
+          EOF
